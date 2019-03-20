@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/1.png" alt="phone"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" title="Главная страница сайта">Главная</a></li>
+                <li><a href="catalog.html" title="Каталог товаров">Каталог</a></li>
+                <li><a href="contacts.html" title="Связаться с нами">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <hr>
+        <h3>Контакты</h3>
+        <div class="contacts">
+            <form>
+                <fieldset>
+                    <legend>Написать нам:</legend>
+                    <label for="username"></label>
+                    <input type="text" size="30" placeholder="Ваше имя" name="userName" id="username"><br>
+                    <label for="userphone"></label>
+                    <input type="text" size="30" placeholder="Ваш телефон" name="userPhone" id="userphone"><br>
+                    <label for="usertheme"></label>
+                    <input type="text" size="30" placeholder="Тема письма" name="userTheme" id="usertheme"><br>
+                    <label for="usermessage"></label>
+                    <textarea cols="35" rows="6" placeholder="Введите сообщение" name="userMessage"
+                              id="usermessage"></textarea><br>
+                    <input type="button" value="Отправить" class="btn">
+                    <input type="reset" value="Очистить" class="btn">
+                </fieldset>
+            </form>
+            <h4>Приезжайте к нам, мы рядом:</h4>
+            <p class="contacts"><b>Салон «На Новокузнецкой»</b><br>Москва, м. Новокузнецкая, ул. Пятницкая, дом 27, стр.
+                2, торговый комплекс «Пассаж на Пятницкой» (ближайшие станции метро — Новокузнецкая и Третьяковская)</p>
+            <p class="contacts"><b><i>Время работы салона:</i></b><br>
+                Будни — с 10:00 до 20:00<br>
+                Суббота — с 11:00 до 20:00<br>
+                Воскресение — с 11:00 до 19:00<br>
+            </p>
+
+            <br>
+            <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A957751302f860e7fc75d5b2c2b8d224210b569c308e42bb34b2f2c6c82654719&amp;width=100%&amp;height=374&amp;lang=ru_RU&amp;scroll=true"></script>
+            <hr>
+        </div>
+    </div>
+    <div class="footer">
+        2018&nbsp;&copy;&nbsp;Все права защищены!
+    </div>
+</div>
+</body>
+
+</html>

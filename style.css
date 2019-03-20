@@ -1,0 +1,292 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-image: url(img/grey.png);
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.menu {
+    float: right;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+
+.menu li {
+    border-radius: 10px;
+    width: 100px;
+    list-style-type: none;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-family: Helvetica, serif;
+    background-color: #800080;
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.menu li:hover {
+    background-color: #a200a2;
+}
+
+.menu a {
+    color: #f8f8f8;
+    display: block;
+}
+
+.menu li a:active {
+    color: #7733FF;
+}
+
+.heading {
+    text-align: center;
+    color: #7733FF;
+}
+
+.text:first-letter {
+    font-size: 24px;
+    color: brown;
+    font-family: Helvetica, serif;
+}
+
+.podpis {
+    text-align: right;
+    padding-right: 15px;
+}
+
+img[alt="girl"] {
+    width: 200px;
+    float: left;
+    padding: 5px;
+}
+
+h3 {
+    color: floralwhite;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-family: Helvetica, serif;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: rebeccapurple;
+    font-size: 20px;
+    text-align: center;
+    font-family: helvetica, serif;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.price {
+    color: rebeccapurple;
+    font-size: 20px;
+    text-align: center;
+    font-family: Helvetica, serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.productCatalog {
+    float: left;
+    width: 100%;
+}
+
+.productUnit {
+    width: 30%;
+    float: left;
+    height: 120px;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    outline: 2px solid #ccc;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.productUnit:nth-child(3n) {
+    margin-right: 0;
+}
+
+.productUnit a {
+    color: #a200a2;
+    display: block;
+}
+
+.productUnit:hover {
+    outline: 3px solid #ccc;
+    background-color: #FFE4E1;
+}
+
+.content {
+    width: 100%;
+    float: left;
+}
+
+.imageUnit {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.textUnit {
+    width: 70%;
+    float: left;
+}
+
+p {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.char {
+    width: 70%;
+    list-style-image: url(img/marker.png);
+    color: #484343;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+}
+
+.char li {
+    background-color: white;
+    border: 2px solid #DCDCDC;
+}
+
+.rating {
+    width: 20%;
+    border: 2px dotted black;
+    background-color: beige;
+    font-size: 18px;
+    margin: 0 auto;
+    color: #8B0000;
+    font-family: helvetica, serif;
+}
+
+.rating caption {
+    font-weight: bold;
+}
+
+fieldset {
+    border: 3px dashed #FF99EE;
+}
+
+legend {
+    font-size: 20px;
+    font-family: Helvetica, serif;
+    color: #484343;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    color: #8b00ff;
+    width: 60%;
+    height: 25px;
+    border: 1px solid #8b00ff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+textarea {
+    font-size: 20px;
+    color: #8b00ff;
+    width: 60%;
+    height: 150px;
+    border: 1px solid #8b00ff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    color: crimson;
+    background-color: bisque;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FF99EE;
+    text-align: center;
+    font-size: 16px;
+    background-color: #8b00ff;
+    color: white;
+}
+
+.btn1 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FF99EE;
+    text-align: center;
+    font-size: 16px;
+    background-color: #8b00ff;
+    color: white;
+    display: block;
+    line-height: 42px;
+    font-family: Helvetica, serif;
+    text-decoration: none;
+    margin: auto;
+}
+
+.btn:hover,
+.btn1:hover {
+    background-color: #5200cc;
+    color: #e0e0e0;
+}
+
+.btn:hover,
+.btn1:active {
+    background-color: #520fff;
+    color: white;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #FF99EE;
+    font-size: 20px;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    color: #f8f8f8;
+    border: 3px dashed #8b00ff;
+    height: 100px;
+    line-height: 100px;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
