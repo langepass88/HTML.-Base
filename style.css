@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: #f8f8f8;
     margin: 0;
@@ -6,6 +10,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+    min-height: 100%;
 }
 
 .header {
@@ -65,7 +70,7 @@ body {
     font-family: Helvetica, serif;
 }
 
-.podpis {
+.signature {
     text-align: right;
     padding-right: 15px;
 }
@@ -274,6 +279,15 @@ textarea:focus {
     font-size: 20px;
 }
 
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.clr {
+    height: 100px;
+}
+
 .footer {
     background-color: #FF99EE;
     font-size: 20px;
@@ -284,9 +298,6 @@ textarea:focus {
     border: 3px dashed #8b00ff;
     height: 100px;
     line-height: 100px;
-}
-
-hr {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 1200px;
+    margin: -100px auto 0;
 }
